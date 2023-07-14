@@ -1,5 +1,3 @@
-
-
 <html>
 <head>
 
@@ -15,7 +13,7 @@ My name is Phan Hoàng Nam. I'm teaching at Van Lang university, Ho Chi Minh cit
 <p>Email: hoangnam.sp101@gmail.com</p>
 <p>Facebook: <a href="https://facebook.com/hoangnamphan"><img src="./icon/facebook-big-logo_81347.png" />  </a></p>
 <p>Zalo:</p>
-  <center>  <a><img src="./icon/ZaloNam.jpg"width="50%" />  </a></center>
+  <center>  <a><img src="./icon/ZaloNam.jpg" width="30%" />  </a></center>
   
   
 </body>
