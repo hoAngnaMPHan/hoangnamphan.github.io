@@ -12,38 +12,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4b9ba14b0f.js" crossorigin="anonymous"></script>
     <title>404 Error</title>
+    <style type="text/css">
+		.red-square {
+		  background-color: #FF4136;
+		  width: 300px;
+		  height: 300px;
+		  position: absolute;
+		  left: 50%;
+		  top: 50%;
+		  transform: translate(-50%, -50%);
+		}
+
+	</style>
   </head>
   <body>
-    <div>
-        <div id="progressbar" border ></div>
-        <css-doodle grid="5" class="doodle">
-            :doodle {
-                @grid: 10 / 100vmax;
-            }
-            background: @pick(#29B6F6, #FDD835, #5E35B1, #FFCCBC, #E8EAF6, #B2DFDB, #1B5E20, #2979FF);
-            opacity: @r(.9);
-            clip-path: polygon(
-                @rand(50%) 0, 50% @rand(70%), 0 @rand(100%)
-            );
-            
-            animation: test infinite @r(40s, 70s) linear;
-           
-            @keyframes test {
-                0% {
-                transform: translate3d(0, 0, 0);
-                }
-                50% {
-                transform: translate3d(@r(-500%, 1000%), @r(-500%, 1000%), 0);
-                }
-                100% {
-                transform: translate3d(0, 0, 0);
-                }
-            }
-        </css-doodle>
-        
+      <div class="red-square">
+         
        <p>404</p>
         <p>Something went wrong!  </p>
         <p><a href="hoangnamphan.github.io"> HOME</a></p>
-    
+    </div>
   
   </body>
