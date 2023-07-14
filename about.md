@@ -7,7 +7,9 @@
 <body>
   <h1>About me</h1>
   <hr>
-My name is Phan Hoàng Nam. I'm teaching at Van Lang university, Ho Chi Minh city, Vietnam. Recently, I have studied at Univercity of Scientic, National University HCM City. My area is matrices theory, group trucsture.
+<p>I have been working at VL University since 2019, specifically teaching advanced mathematics, applied statistics in economics and business, applied mathematics in banking, tourism management, engineering, and so on.</p>
+
+<p> Recently, I have been involved in research as a PhD. student at the University of Science, Vietnam National University, Ho Chi Minh City . My research field is algebraic structures, specifically the decomposition of symplectic matrices in their group into the product of special matrices. </p>
 
 <p>Contact me:</p>
 <p>Email: hoangnam.sp101@gmail.com</p>
