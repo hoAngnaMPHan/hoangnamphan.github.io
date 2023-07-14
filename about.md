@@ -13,7 +13,7 @@
 
 <p>Contact me:</p>
 <p>Email: hoangnam.sp101@gmail.com</p>
-<p>Facebook: <a href="https://facebook.com/hoangnamphan"><img src="./icon/facebook-big-logo_81347.png" />  </a></p>
+<p>Facebook: <a href="https://facebook.com/hoangnam.phan.7140"><img src="./icon/facebook-big-logo_81347.png" />  </a></p>
 <p>Zalo:</p>
   <center>  <a><img src="./icon/ZaloNam.jpg" width="30%" />  </a></center>
   
@@ -21,5 +21,5 @@
 </body>
   <footer>
     <hr>
-    <center>Phan Hoang Nam, since 2023</center></footer>
+    <center>\copy; Phan Hoang Nam | Since 2023</center></footer>
 </html>
