@@ -11,7 +11,7 @@
 
 <p> Recently, I have been involved in research as a PhD. student at the University of Science, Vietnam National University, Ho Chi Minh City . My research field is algebraic structures, specifically the decomposition of symplectic matrices in their group into the product of special matrices. </p>
 
-<p>Contact me:</p>
+<h2>Contact me:</h2>
 <p>Email: hoangnam.sp101@gmail.com</p>
 <p>Facebook: <a href="https://facebook.com/hoangnam.phan.7140"><img src="./icon/facebook-big-logo_81347.png" />  </a></p>
 <p>Zalo:</p>
