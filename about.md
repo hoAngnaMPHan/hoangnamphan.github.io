@@ -1,25 +1,225 @@
+
+<!doctype html>
 <html>
+
 <head>
-
-<meta name="description" content="Our first page">
-<meta name="keywords" content="html tutorial template">
+    <title>Mathcha</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.mathcha.io/main.css" />
+    <link rel="icon" type="image/png" href="https://cdn.mathcha.io/resources/logo.png" />
 </head>
+
 <body>
-  <h1>About me</h1>
-  <hr>
-<p>I have been working at VL University since 2019, specifically teaching advanced mathematics, applied statistics in economics and business, applied mathematics in banking, tourism management, engineering, and so on.</p>
+    <script>
+        function navigateToEditor() {
+            var win = window.open("http://mathcha.io", '_blank');
+            win.focus();
+        }
+        function navigateToLanding() {
+            window.location.href = "/";
+        }
+    </script>
+    <page>
+        <header>
+            <a href="/">
+                <div style="margin-left: 20px;color: white;font-size: 17px; float: left;
+                margin-top: 11px">Math</div>
+                <img style="width: 20px; margin-top: 5px" src="image/logo-header.svg" />
+            </a>
+            <info class="info">
 
-<p> Recently, I have been involved in research as a PhD. student at the University of Science, Vietnam National University, Ho Chi Minh City . My research field is algebraic structures, specifically the decomposition of symplectic matrices in their group into the product of special matrices. </p>
+                <item> About </item>
+            </info>
+            <open-button onclick="navigateToEditor()" id="open-button-header" style="opacity:1" class="hide">
+                <button-inside>
+                    <a target="_blank" onclick="event.stopPropagation();" href="/editor"
+                        style="color:#4CAF50; text-decoration: none">Open Editor</a>
+                </button-inside>
+            </open-button>
+        </header>
+        <container style="min-height:700px;line-height:1.5em">
+            <style>
+                .cl-change-log {
+                    font-size: 2.5em;
+                    margin-bottom: 50px;
+                    border-bottom: 1px solid #eee;
+                    padding-bottom: 20px;
+                    font-weight: bold;
+                }
 
-<h2>Contact me:</h2>
-<p>Email: hoangnam.sp101@gmail.com</p>
-<p>Facebook: <a href="https://facebook.com/hoangnam.phan.7140"><img src="./icon/facebook-big-logo_81347.png" />  </a></p>
-<p>Zalo:</p>
-  <center>  <a><img src="./icon/ZaloNam.jpg" width="30%" />  </a></center>
-  
-  
+                .cl-title {
+                    margin-bottom: 5px;
+                    font-size: 1.3em;
+                    border-bottom: 1px solid #eee;
+                    padding-bottom: 5px;
+                    font-weight: bold;
+                }
+
+                .cl-ver {
+                    font-size: 0.6em;
+                    color: gray;
+                    font-weight: normal;
+                }
+
+                .cl-item-lv1 {
+                    margin-left: 2em;
+                    display: list-item;
+                }
+
+                .cl-item-lv2 {
+                    margin-left: 3.5em;
+                    display: list-item;
+                    list-style-type: circle;
+                }
+                .cl-section {
+                    margin-bottom: 50px;
+                    
+                }
+            </style>
+            <div style="text-align:left;margin-top:100px;margin-left:20px">
+                <div class="cl-change-log">Change Log</div>
+
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2022-04-22</span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Fixed: performance on cursor moving on large documents in new chrome versions</div>
+                    </div>
+                </div>
+
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2022-04-20</span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Allow to change Preset Color</div>
+                        <div class="cl-item-lv1">Hotkey to change Stroke Color (Alt+S), Fill Color (Alt+F), Text Color (Alt+T)</div>
+                        <div class="cl-item-lv1">Buttons to convert Circle/Ellipse to Arc/Pie</div>
+
+                    </div>
+                </div>
+
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2022-03-20</span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Fixed: By default, Arrow in Middle of a Line/Curve is truely in middle</div>
+                    </div>
+                </div>
+
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2022-03-18</span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Fixed: Rotation Text issue of \inline-diagram inside Math Mode</div>
+                        <div class="cl-item-lv1">Fixed: Copy shapes/items between Diagrams in Text Mode and Math Mode </div>
+                    </div>
+                </div>
+
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2022-03-15</span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Allow to select arrow head/tail angle calculated based on how far from starting point </div>
+                        <div class="cl-item-lv1">Disable Line/Arrow Intersection feature </div>
+                    </div>
+                </div>
+
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2022-03-14</span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Allow to select arrow head/tail on Arc Shape</div>
+                    </div>
+                </div>
+
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2022-03-10</span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Enabled Stripe/Alipay payment</div>
+                    </div>
+                </div>
+
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2022-02-27</span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Add Loging using Email/Password</div>
+                        <div class="cl-item-lv2">Register new User with Email/Password</div>
+                        <div class="cl-item-lv2">Create Email Login for existing User</div>
+                        <div class="cl-item-lv2">Forget/Change Password</div>
+                        <div class="cl-item-lv1">Disable Stripe/Alipay payment (problems with Stripe policy)</div>
+                    </div>
+                </div>
+
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2021-11-20</span>
+                        <span class="cl-ver"></span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Added: \section-ref command in Text Mode</div>
+                        <div class="cl-item-lv1">Added: able to copy from Google Spreadsheet to Mathcha Table (tested on Google Spreadsheet, Microsoft Excel online)</div>
+                        <div class="cl-item-lv1">Fixed: cursor moving with Ctrl key in RTL mode</div>
+                    </div>
+                </div>
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2021-09-01</span>
+                        <span class="cl-ver"></span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Added: Diagram/Drawing: Spiral shape</div>
+                        <div class="cl-item-lv1">Fixed: Select all inside caption</div>
+                        <div class="cl-item-lv1">Added: Diagram/Drawing: Able to input Start/End Angle for Arc/Pie shape</div>
+                        <div class="cl-item-lv1">Fixed: Able to select multiple images with Shift in \image-manager</div>
+                    </div>
+                </div>
+
+
+            </div>
+        </container>
+        <footer style="background: #e8e8e8;
+    width: 100%;
+    bottom: 0;">
+            <p>
+                2018-2022 Mathcha.io
+                <br />team@mathcha.io
+                <br />
+                <br />
+                <a href="/privacy-policy">Privacy Policy</a>
+                <br />
+                <a href="/terms-of-service">Terms of Service</a>
+                <br />
+                <br />
+                <a href="https://twitter.com/mathchaeditor" class="twitter-follow-button" data-show-count="false">Follow
+                    @mathchaeditor</a>
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <br />
+                <br />All rights reserved
+            </p>
+        </footer>
+    </page>
+    <script>
+        var cursor = document.getElementById("cursor");
+        var openButtonHeader = document.getElementById("open-button-header");
+        window.addEventListener("scroll", function () {
+            // console.log("scroll: ", window.document.body.scrollTop);
+            if (window.document.body.scrollTop > 320) {
+                openButtonHeader.className = "show";
+            } else {
+                openButtonHeader.className = "hide";
+            }
+        });
+    </script>
 </body>
-  <footer>
-    <hr>
-    <center>\copy; Phan Hoang Nam | Since 2023</center></footer>
+
 </html>
