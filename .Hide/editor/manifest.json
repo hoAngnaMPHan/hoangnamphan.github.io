@@ -1,9 +1,0 @@
-{
-  "name": "LaTeX Base",
-  "short_name": "LaTeX Base",
-  "start_url": "/",
-  "orientation": "portrait",
-  "icons": {
-    "144": "/icon/logo.png"
-  }
-}
