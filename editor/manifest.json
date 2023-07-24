@@ -4,6 +4,6 @@
   "start_url": "/",
   "orientation": "portrait",
   "icons": {
-    "144": "images/logo-144x144.png"
+    "144": "/icon/logo.png"
   }
 }
