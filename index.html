@@ -1,20 +1,20 @@
+<!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Phan Hoang Nam</title>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="icon" type="image/png" href="./icon/logo.png" />
+
+	<title>Phan Hoang Nam</title>
    
-    <link rel="icon" type="img/png" href="/icon/logo.png"/>
-	<style>
+<style>
 		div.giua {
 		text-align: center; 
 			font-size: 30px;
 			}
 		</style>
-</head>
-<body>
-	<head>
-    <title>About</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="icon" type="image/png" href="./icon/logo.png" />
 </head>
 
 <body>
@@ -27,66 +27,180 @@
             window.location.href = "/";
         }
     </script>
-  
+    <page>
         <header>
             <a href="/">
-                <div style="margin-left: 20px;color: white;font-size: 20px; float: left;
+                <div style="margin-left: 20px;color: white;font-size: 17px; float: left;
                 margin-top: 11px">Math</div>
-                <img style="width: 24px; margin-top: 5px" src="/icon/logo-header.svg" />
+                <img style="width: 20px; margin-top: 5px" src="/icon/logo-header.svg" />
             </a>
             <info class="info">
+                <item> Reseaches </item>
 
                 <item> About </item>
             </info>
+            <!--
+            <open-button onclick="navigateToEditor()" id="open-button-header" style="opacity:1" class="hide">
+                <button-inside>
+                    <a target="_blank" onclick="event.stopPropagation();" href="/editor"
+                        style="color:#4CAF50; text-decoration: none">Open Editor</a>
+                </button-inside>
+            </open-button>
+            -->
+            
+        </header>
+        <container style="min-height:700px;line-height:1.5em">
+            <style>
+                .cl-change-log {
+                    font-size: 2.5em;
+                    margin-bottom: 50px;
+                    border-bottom: 1px solid #eee;
+                    padding-bottom: 20px;
+                    font-weight: bold;
+                }
+
+                .cl-title {
+                    margin-bottom: 5px;
+                    font-size: 1.3em;
+                    border-bottom: 1px solid #eee;
+                    padding-bottom: 5px;
+                    font-weight: bold;
+                }
+
+                .cl-ver {
+                    font-size: 0.6em;
+                    color: gray;
+                    font-weight: normal;
+                }
+
+                .cl-item-lv1 {
+                    margin-left: 2em;
+                    display: list-item;
+                }
+
+                .cl-item-lv2 {
+                    margin-left: 3.5em;
+                    display: list-item;
+                    list-style-type: circle;
+                }
+                .cl-section {
+                    margin-bottom: 50px;
                     
-	</header>
-    
-    
+                }
+            </style>
+            <div style="text-align:left;margin-top:100px;margin-left:20px">
+                <div class="cl-change-log">About me</div>
+
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2022-04-22</span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Fixed: performance on cursor moving on large documents in new chrome versions</div>
+                    </div>
+                </div>
+
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2022-04-20</span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Allow to change Preset Color</div>
+                        <div class="cl-item-lv1">Hotkey to change Stroke Color (Alt+S), Fill Color (Alt+F), Text Color (Alt+T)</div>
+                        <div class="cl-item-lv1">Buttons to convert Circle/Ellipse to Arc/Pie</div>
+
+                    </div>
+                </div>
+
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2022-03-20</span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Fixed: By default, Arrow in Middle of a Line/Curve is truely in middle</div>
+                    </div>
+                </div>
+
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2022-03-18</span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Fixed: Rotation Text issue of \inline-diagram inside Math Mode</div>
+                        <div class="cl-item-lv1">Fixed: Copy shapes/items between Diagrams in Text Mode and Math Mode </div>
+                    </div>
+                </div>
+
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2022-03-15</span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Allow to select arrow head/tail angle calculated based on how far from starting point </div>
+                        <div class="cl-item-lv1">Disable Line/Arrow Intersection feature </div>
+                    </div>
+                </div>
+
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2022-03-14</span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Allow to select arrow head/tail on Arc Shape</div>
+                    </div>
+                </div>
+
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2022-03-10</span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Enabled Stripe/Alipay payment</div>
+                    </div>
+                </div>
+
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2022-02-27</span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Add Loging using Email/Password</div>
+                        <div class="cl-item-lv2">Register new User with Email/Password</div>
+                        <div class="cl-item-lv2">Create Email Login for existing User</div>
+                        <div class="cl-item-lv2">Forget/Change Password</div>
+                        <div class="cl-item-lv1">Disable Stripe/Alipay payment (problems with Stripe policy)</div>
+                    </div>
+                </div>
+
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2021-11-20</span>
+                        <span class="cl-ver"></span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Added: \section-ref command in Text Mode</div>
+                        <div class="cl-item-lv1">Added: able to copy from Google Spreadsheet to Mathcha Table (tested on Google Spreadsheet, Microsoft Excel online)</div>
+                        <div class="cl-item-lv1">Fixed: cursor moving with Ctrl key in RTL mode</div>
+                    </div>
+                </div>
+                <div class="cl-section">
+                    <div class="cl-title">
+                        <span class="cl-date">Release: 2021-09-01</span>
+                        <span class="cl-ver"></span>
+                    </div>
+                    <div>
+                        <div class="cl-item-lv1">Added: Diagram/Drawing: Spiral shape</div>
+                        <div class="cl-item-lv1">Fixed: Select all inside caption</div>
+                        <div class="cl-item-lv1">Added: Diagram/Drawing: Able to input Start/End Angle for Arc/Pie shape</div>
+                        <div class="cl-item-lv1">Fixed: Able to select multiple images with Shift in \image-manager</div>
+                    </div>
+                </div>
 
 
-<h2>Teaching</h2>
+            </div>
+        </container>
 
-<p> Some of my course material is on GitHub, especially for courses that are no longer running.  </p>
-
-<p><a href="https://hoangnamphan.github.io/knots_and_surfaces">
-    Knots and Surfaces</a>
-</p>
-
-<h2>Geometry of surfaces</h2>
-
-This is a large project about holomorphic uniformisation of a family
-of highly symmetric surfaces of genus two embedded in the 3-sphere.
-There is a monograph of 160 pages together with about 20000 lines of
-associated Maple code.
-
-<p><a href="https://hoangnamphan.github.io/genus2/">
-    Uniformisation of embedded surfaces</a>
-<p>
-
-
-
-<h2>Maple</h2>
-
-I have a large library of Maple code covering various different areas
-of pure mathematics.
-<table class="edged" style="width:600px">
-
- <p> <a href="https://github.com/hoangnamphan/maple_lib">
-    Maple library</a> </p>
-
-
-<h2>Researches</h2>
-
-<p> <a href="/researches.html"> Read here. </a>  </p> 
-
-
-
-<h2>Other things</h2>
-
-
-</body>
-
-<footer style="background: #e8e8e8;
+	    <footer style="background: #e8e8e8;
     width: 100%;
     bottom: 0;">
             <p>
@@ -96,14 +210,28 @@ of pure mathematics.
                 <a href="/about">About</a>
 		      <br/>
                               <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>  
-  <div class="fb-page" 
-      data-href="https://www.facebook.com/hoangnam.phan.7140/"
-      data-width="500">Face</div>
-                <br/>
-                <a href="https://twitter.com/conmuahe10" class="twitter-follow-button" data-show-count="false">Follow
-                    @conmuahe10</a>
-                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <a href="https://www.facebook.com/hoangnam.phan.7140/">Facebook</a>
+		
                 <br />
                 </p>
         </footer>
-    </html>
+
+    </page>
+    <script>
+        var cursor = document.getElementById("cursor");
+        var openButtonHeader = document.getElementById("open-button-header");
+        window.addEventListener("scroll", function () {
+            // console.log("scroll: ", window.document.body.scrollTop);
+            if (window.document.body.scrollTop > 320) {
+                openButtonHeader.className = "show";
+            } else {
+                openButtonHeader.className = "hide";
+            }
+        });
+    </script>
+</body>
+
+	
+</html>	
+	
+	
