@@ -1,14 +1,3 @@
-name:  Nam
-
-permalink: /blog/:title
-
-description: This is a simple Blog.
-
-author: Phan Hoang Nam
-
-author_email: hoangnam.sp101@gmail.com
-
-category_dir: /
-
-paginate: 3
-
+name: Hank Quinlan, Horrible Cop
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
