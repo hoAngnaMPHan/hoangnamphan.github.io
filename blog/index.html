@@ -4,14 +4,11 @@ title: Nam's Blog
 ---
 <h1>{{ page.title }}</h1>
 <ul class="posts">
-
+<h2> All posts </h2>
   {% for post in site.posts %}
     <li> <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
   {% endfor %}
 
-   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-<link href="/css/latest-posts.css" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     
 </ul>
