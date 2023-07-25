@@ -1,7 +1,9 @@
 body { margin: 40px auto; width: 90%; }
 
 a { text-decoration: none; color: #999; }
-a:hover { text-decoration: underline; }
+a:hover { text-decoration: underline; color: #FFCC00 }
+a:visited {color: #006600}
+a:active {color: #FF00CC}
 
 p, ul { font-size: 1.8em; line-height: 1.4em; color: #333; }
 
