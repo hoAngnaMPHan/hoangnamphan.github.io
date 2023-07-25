@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Start writing a blog by using GitHub"
+title: "PRODUCTS OF COMMUTATORS OF INVOLUTIONS IN SKEW LINEAR GROUPS"
 date: 2023-07-25
-tags: [GitHub, involution, division ring,]
+tags: [decomposition, involution, division ring,]
 ---
 
 PRODUCTS OF COMMUTATORS OF INVOLUTIONS IN SKEW LINEAR GROUPS
