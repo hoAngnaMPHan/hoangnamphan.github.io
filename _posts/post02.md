@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Post 02"
+date: 2023-07-25
+tags: "Web"
+---
+
+<h1> A new post</h1>
+<p> Test for load new posts correctly.</p>
