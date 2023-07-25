@@ -3,3 +3,4 @@ markdown: kramdown
 permalink: /blog/:title
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
