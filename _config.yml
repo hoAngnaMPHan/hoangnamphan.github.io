@@ -1,3 +1,5 @@
 name: Nam
 markdown: kramdown
 permalink: /blog/:title
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
