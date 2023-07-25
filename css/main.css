@@ -5,19 +5,30 @@ a:hover { text-decoration: underline; color: #FFCC00 }
 a:visited {color: #006600}
 a:active {color: #FF00CC}
 
-p, ul { font-size: 2.4em; line-height: 2.4em; color: #333; }
+p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
 
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3.0em;  }
-h2 { font-size: 2.8em; }
-h3 { font-size: 2.6em; }
-h4 { font-size: 2.4em; }
+h2 { font-size: 2.7em; }
+h3 { font-size: 2.4em; }
+h4 { font-size: 2.0em; }
 
-nav ul { font-size: 2.0em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
+nav ul { font-size: 1.0em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
 footer ul { font-size: 1.5em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
+
+mobile-browser-support {
+  position: absolute;
+  left: 50%;
+  top: 260px;
+  margin-left: -90px;
+  font-size: 16px;
+  color: gray;
+  font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+  font-weight: 300;
+}
 
 
 
