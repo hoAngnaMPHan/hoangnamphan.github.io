@@ -11,6 +11,7 @@ layout: theme3
           {% for tag in page.tags %}
             <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
           {% endfor %}
+                <span>; </span>
         </div>
       {% endif %}
 </p>
