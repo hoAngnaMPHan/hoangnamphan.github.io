@@ -1,22 +1,30 @@
 ---
 layout: theme2
 ---
+<div class="page">
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
-
-
-
+</div>
 <div class="post">
   {{ content }}
 </div>
-<p> 
+
+
+ 
 {% if page.tags.size > 0 %}
         <div class="blog-tags">
           <span>Tags:</span>
           {% for tag in page.tags %}
             <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+          <span>;</span>
           {% endfor %}
         </div>
       {% endif %}
+<<<<<<< HEAD
 </p>
 <div class="fb-comments" data-href="https://   " data-width="200" data-numposts="10"></div>
+=======
+
+  
+
+>>>>>>> 4a3a5c4ab9d491ee48a750f3b10af06086eb6666
