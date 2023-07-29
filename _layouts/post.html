@@ -1,16 +1,30 @@
 ---
 layout: theme2
 ---
+<div class="aside-side">
+<div itemscope itemtype="http://schema.org/Person">
+
+	<img src="/images/me3.jpg" class="bio-photo" alt="Nam bio photo">
+
+  <h4 itemprop="name">Phan Hoang Nam</h4>
+  <p>
+ <i class="fa fa-graduation-cap" aria-hidden="true"></i> Master <br>
+ <i class="fa fa-book" aria-hidden="true"></i> Mathematics<br> 
+ <i class="fa fa-book" aria-hidden="true"></i> Statistics & Data Science<br>
+ <i class="fa fa-university" aria-hidden="true"></i> VL University <br><br>
+ <a href="mailto:hoangnam.sp101@gmail.com"> <meta itemprop="email" content="hoangnam.sp10@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email </a> <br>
+    <a href="https://facebook.com/hoangnam.phan.7140"> <i class="fa-brands fa-facebook"></i></i> Facebook</a>  <br>
+	  <i class="fa fa-map-marker" aria-hidden="true"> </i> Tan Phu, HCM City
+          <br>
+  </p>
+
+</div>  </div> 
+
 <div class="page">
+
 <h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
-</div>
-<div class="post">
-  {{ content }}
-</div>
-
-
- 
+<p class="meta">{{ page.date | date_to_string }}
 {% if page.tags.size > 0 %}
         <div class="blog-tags">
           <span>Tags:</span>
@@ -20,11 +34,8 @@ layout: theme2
           {% endfor %}
         </div>
       {% endif %}
-<<<<<<< HEAD
 </p>
-<div class="fb-comments" data-href="https://   " data-width="200" data-numposts="10"></div>
-=======
-
-  
-
->>>>>>> 4a3a5c4ab9d491ee48a750f3b10af06086eb6666
+</div>
+<div class="post">
+  {{ content }}
+</div>
