@@ -23,13 +23,12 @@ aside-side h3,.aside-bottom h3{margin-bottom:0}
 .author-social:active{-webkit-transform:translate(0, 2px);-moz-transform:translate(0, 2px);-ms-transform:translate(0, 2px);-o-transform:translate(0, 2px);transform:translate(0, 2px)}
 .author-social .fa{margin-right:5px}
 .aside-side{display:none}
-.aside-side .bio-photo{max-width:100px}
-@media only screen and (min-width: 37.5em){.aside-side{display:block;display:inline;float:right;width:16.6666666667%;margin-left:4.1666666667%;margin-right:4.1666666667%}
+.aside-side .bio-photo{max-width:100px}@media only screen and (min-width: 37.5em){.aside-side{display:block;display:inline;float:right;width:16.6666666667%;margin-left:4.1666666667%;margin-right:4.1666666667%}
 .aside-side h3,.aside-side p,.aside-side .author-social{display:block;max-width:125px}
 .aside-side h3{margin-top:10px;margin-bottom:10px}.aside-side p{margin-bottom:20px}
 .aside-side .author-social{margin-bottom:5px}}
 @media only screen and (min-width: 62em){.aside-side h3,.aside-side .bio-photo,.aside-side p,.aside-side .author-social{max-width:150px}}
-@media only screen and (min-width: 100.375em){.aside-side{display:inline;float:right;width:12.5%;margin-left:16.6666666667%}}
+@media only screen and (min-width: 86.375em){.aside-side{display:inline;float:right;width:12.5%;margin-left:16.6666666667%}}
 .aside-bottom{margin-bottom:1em}
 @media only screen and (min-width: 37.5em){.aside-bottom{display:none}}
 .aside-bottom .bio-photo{float:right;margin-right:25px;max-width:100px;border-radius:150px}.aside-bottom .author-social{display:inline-block;margin-right:10px}
