@@ -1,7 +1,7 @@
 ---
 layout: theme
 ---
-<div class="aside-side">
+<div class="rightside">
 <h3>Tags</h3>
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 {%- capture site_tags -%}
@@ -42,6 +42,8 @@ layout: theme
       {% endif %}
 </p>
 </div>
+
 <div class="post">
   {{ content }}
 </div>
+
