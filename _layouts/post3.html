@@ -18,10 +18,6 @@ layout: theme3
 </p>
          </div>
 
-<div class="post">
-  {{ content }}
-</div>
-
 <div class="hidden-mobile">
 <h3>Tags</h3>
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
@@ -41,6 +37,12 @@ layout: theme3
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
   <br>
   {% endfor %}
+
+<div class="post">
+  {{ content }}
+</div>
+
+
   
     
 </ul>
