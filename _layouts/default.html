@@ -24,34 +24,72 @@ body {
   color: white;
 }
 /* Navigation */
-.navbar {
+/*Navigation for mobile */
+.mobile-container {
+  background-color: #555;
+  color: white;
+  border-radius: 10px;
+}@media (min-width: 480px) {.mobile-container {display: none}}
+.topnav {
   overflow: hidden;
   background-color: #333;
-  position: fixed;
+  position: relative;
+}
+.topnav #myLinks {
+  display: none;
+}
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
   top: 0;
-  width: 100%;
+} 
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-.navbar a {
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/*Navigation for laptop */
+.subnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.subnav a {
   float: left;
-  display: block;
-  color: #f2f2f2;
+  background-color: #04AA6D;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
-.navbar a:hover {
-  background: #ddd;
+/* Change the color of links on hover */
+.subnav a:hover {
+ background-color: #ddd;
   color: black;
 }
-/* logo ben trai Navbar */
-.logobar {
-  background-color: #333;
+
+/* Add a color to the active/current link */
+.subnav a.active {
+  background-color: #04AA6D;
   color: white;
 }
-
+@media (max-width: 480px){.subnav{display: none;}}
 
 
 
@@ -74,6 +112,7 @@ body {
   padding: 20px;
 }
 
+
 /* Main column */
 .main {
   flex: 54%;
@@ -81,12 +120,14 @@ body {
   padding: 20px;
 }
 
+
 /* Fake image, just for this example */
 .fakeimg {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
 }
+
 
 /* Footer */
 .footer {
@@ -114,24 +155,6 @@ body {
       }
 	  
 
-/* Style the navigation menu */
-#myMenu {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* Style the navigation links */
-#myMenu li a {
-  padding: 12px;
-  text-decoration: none;
-  color: black;
-  display: block
-}
-
-#myMenu li a:hover {
-  background-color: #eee;
-}
 
 </style>
 
@@ -154,12 +177,26 @@ body {
 </div>
 
 <!-- Navigation Bar -->
-<div class="navbar">
-<a href="#home" class="logobar">Logo</a>
+<!-- Mobile Top Navigation Menu -->
+<div class="topnav">
+<!-- Mobile Top Navigation Menu -->
+<div class="subnav">
+  <a href="#home" class="active">Logo</a>
   <a href="#">Link</a>
   <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
+</div>
+<div class="mobile-container">
+<!-- Mobile Top Navigation Menu -->
+<a href="#home" class="active">Logo</a>
+  <div id="myLinks">
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 </div>
 
 <!-- The flexible grid (content) -->
