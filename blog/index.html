@@ -11,9 +11,7 @@ title: Nam's Blog
   <p class="author">
     <span class="date">{{ post.date | date_to_string  }}</span>
   </p>
-  <div class="content">
-    {{ post.content }}
-  </div>
+  {{ post.excerpt }}
 {% endfor %}
 
 <!-- Pagination links -->
