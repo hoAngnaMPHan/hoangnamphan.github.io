@@ -1,15 +1,15 @@
 name: Nam
 markdown: kramdown
 permalink: /blog/:title
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate: 10 # amount of posts to show
+paginate_path: /page/:num/
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
+excerpt_separator: <!--more-->
 incremental: false
 
 
