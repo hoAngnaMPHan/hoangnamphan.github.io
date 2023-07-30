@@ -1,8 +1,8 @@
 name: Nam
 markdown: kramdown
 permalink: /blog/:title
-paginate: 10 # amount of posts to show
-paginate_path: /page/:num/
+paginate: 5 # amount of posts to show
+paginate_path: /blog/page/:num/
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Conversion
