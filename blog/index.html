@@ -12,6 +12,7 @@ title: Nam's Blog
     <span class="date">{{ post.date | date_to_string  }}</span>
   </p>
   {{ post.excerpt }}
+  <a href="{{ post.url }}" style="text-align:right;"><span> Read more </span></a>
 {% endfor %}
 
 <!-- Pagination links -->
