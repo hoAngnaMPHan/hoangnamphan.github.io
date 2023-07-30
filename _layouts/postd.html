@@ -98,11 +98,29 @@ function myFunction() {
   </div>
   
   <div class="main">
-   <div class="container">
-
-  {{ content }}
-
+   
+   
+   <h1>{{ page.title }}</h1>
+<p class="meta">{{ page.date | date_to_string }}
+{% if page.tags.size > 0 %}
+        <div class="blog-tags">
+          <span>Tags:</span>
+          {% for tag in page.tags %}
+            <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+          <span>;</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+</p>
 </div>
+
+<div class="post">
+  {{ content }}
+</div>
+
+   
+   
+   
   </div>
    <div class="rightside">
     <h2>Right</h2>
