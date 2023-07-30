@@ -144,10 +144,7 @@ body {
 	  
 /* Main column */
 .main {
-  flex: 54%;
+  
   background-color: white;
   padding: 20px;
 }
-
-/*post */
-.post{margin:0 auto;width:100%;display:inline;float:left;width:83.3333333333%;margin-left:8.3333333333%;margin-right:8.3333333333%;margin-bottom:2em}
