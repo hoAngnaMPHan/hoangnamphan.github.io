@@ -15,7 +15,7 @@ layout: theme
 {%- endfor -%}
 
 <h4>Recent posts</h4>
-<ul class="posts">
+<ul>
   {% for post in paginator.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
   <br>
